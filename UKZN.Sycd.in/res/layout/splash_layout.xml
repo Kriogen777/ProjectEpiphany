@@ -34,24 +34,24 @@
         android:textColor="#b8b8b8"
         android:textColorHint="#b8b8b8"/>
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_below="@+id/editText2"
-        android:layout_marginTop="32dp"
-        android:text="@string/btn_login" />
-
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/editText2"
-        android:layout_alignRight="@+id/editText2"
         android:layout_below="@+id/editText2"
+        android:layout_marginTop="20dp"
         android:text="@string/chkbx_remember"
-        android:textColor="#b8b8b8"/>
+        android:textColor="#b8b8b8" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_login" />
 
 </RelativeLayout>

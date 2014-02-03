@@ -27,7 +27,7 @@ public class MainActivity extends FragmentActivity {
 		
 		//Add fragments to preload
 		frags.add(Fragment.instantiate(this, SplashFrag.class.getName()));
-		frags.add(Fragment.instantiate(this, SplashFrag.class.getName()));
+		frags.add(Fragment.instantiate(this, MarksFrag.class.getName()));
 		frags.add(Fragment.instantiate(this, SplashFrag.class.getName()));
 		
 		setContentView(R.layout.activity_main);
