@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UKZN Sycd in</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Log In</string>
+    <string name="title_section2">Marks</string>
+    <string name="title_section3">Events</string>
+    <string name="usr_hint">Student Number</string>
+    <string name="usr_pw">Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="chkbx_remember">Remember Me</string>
+    <string-array name="array_semester">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+    </string-array>
+	<string-array name="array_class">
+        <item>Class</item>
+        <item>Exam</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@drawable/splash">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:ems="10"
+        android:hint="@string/usr_hint"
+        android:inputType="number" 
+        android:textColor="#b8b8b8"
+        android:textColorHint="#b8b8b8">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/usr_pw"
+        android:inputType="textPassword" 
+        android:textColor="#b8b8b8"
+        android:textColorHint="#b8b8b8"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_login" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:text="@string/chkbx_remember"
+        android:textColor="#b8b8b8"/>
+
+</RelativeLayout>
